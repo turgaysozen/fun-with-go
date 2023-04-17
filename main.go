@@ -15,4 +15,9 @@ func main() {
 	bS := binarySearch(qS, target, low, high)
 	fmt.Println("bS:", bS)
 
+	// interface
+	cir := circle{radius: 3}
+	calculate(cir)
+	rec := rect{width: 4, height: 6}
+	calculate(rec)
 }
