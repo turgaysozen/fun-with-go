@@ -39,4 +39,9 @@ func main() {
 	} else {
 		fmt.Println("Not found.")
 	}
+
+	// algorithm
+	// 1- count of words by map
+	text := "hello world, this is golang project for counting words by golang map.."
+	countWords(text)
 }
